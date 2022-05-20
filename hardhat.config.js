@@ -25,9 +25,9 @@ module.exports = {
     artifacts: "./src/artifacts",
   },
   networks: {
-    hardhat: {
-      chainId: 1337,
-    },
+    // hardhat: {
+    //   chainId: 1337,
+    // },
     rinkeby: {
       url: process.env.RINKEBY_URL,
       accounts: [process.env.METAMASK_PKEY],
